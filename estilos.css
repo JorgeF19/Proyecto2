@@ -1,0 +1,130 @@
+
+.base{
+    border-radius: 35px;
+    background: #c0bfbf;
+    box-shadow: inset 6px 6px 9px #a9a8a8,
+                inset -6px -6px 9px #d7d6d6;
+        height: 100%;
+        width: 95%;
+        margin: 10px;
+}
+
+.base2{
+    border-radius: 35px;
+    background: #c0bfbf;
+    box-shadow: inset 6px 6px 9px #a9a8a8,
+                inset -6px -6px 9px #d7d6d6;
+        padding: 20px;
+        width: 95%;
+        margin: 10px;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    
+    padding: 10px;
+    display: inline;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: #7da396;
+    border-radius: 20px;
+    color: #251818;
+    
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+a{
+    background-color: #79af7c;
+    border-radius: 20px;
+    font-size:1.6em;
+    margin: 15px;
+    color: rgb(228, 233, 233);
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+a:hover{
+    background-color: #379cee;
+    color: rgb(255, 0, 0);
+    font-size: 1.7em;
+    border-radius: 15px;
+}
+
+.introduccion{
+    margin: 10px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    background-color:  #ededed;
+    
+    border-radius: 20px;
+    padding: 8px;
+}
+p::selection{
+    background-color: #a57373;
+    color: aquamarine;
+}
+
+
+#perfil{
+    border: 5px solid #fcfcfc;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    
+    margin-left: 20px;
+    max-height: 470px;
+    max-width: 266px;
+
+}
+.info{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+}
+#conjunto{
+    display: flex;
+    
+    
+
+}
+.FotoP{
+    
+    height: 250px;
+    margin: 10px;
+    box-shadow: 3px 3px 4px #3b3535;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+#fotoPerfil{
+    height: 400px;
+    border-radius: 10px;
+    
+    
+}
+img:hover{
+    height: 265px;
+    
+    
+}
+
+#fotos{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: last baseline;
+}
+
+@media all and (max-width:560px){
+    #conjunto{
+        display: block;
+    }
+}
